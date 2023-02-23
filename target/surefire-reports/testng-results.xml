@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T19:05:45 IST" name="Suite" finished-at="2023-02-20T19:07:03 IST" duration-ms="77807">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T19:05:45 IST" name="Test" finished-at="2023-02-20T19:05:45 IST" duration-ms="6">
+    </test> <!-- Test -->
+    <test started-at="2023-02-20T19:05:45 IST" name="Regression1" finished-at="2023-02-20T19:05:45 IST" duration-ms="0">
+    </test> <!-- Regression1 -->
+    <test started-at="2023-02-20T19:05:45 IST" name="Regression2" finished-at="2023-02-20T19:07:03 IST" duration-ms="77715">
+      <class name="com.unified.infinity.uitest.admin.Subscriptions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:05:45 IST" name="setup" finished-at="2023-02-20T19:05:48 IST" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodsetup()[pri:0, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:05:48 IST" name="methodsetup" finished-at="2023-02-20T19:05:48 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsetup -->
+        <test-method signature="Subscriptions(java.util.HashMap)[pri:1, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:05:48 IST" name="Subscriptions" data-provider="getData" finished-at="2023-02-20T19:07:02 IST" duration-ms="73990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Test, PhoneNumber=8688858154, ExecutionFlag=Y, LastName=Test, APP_URL=https://student.infinitylearn.com/signin?page=signin, Password=Pass123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscriptions -->
+        <test-method is-config="true" signature="EndMethod()[pri:0, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:07:02 IST" name="EndMethod" finished-at="2023-02-20T19:07:03 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndMethod -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:07:03 IST" name="endSuite" finished-at="2023-02-20T19:07:03 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+        <test-method is-config="true" signature="sendEmail()[pri:0, instance:com.unified.infinity.uitest.admin.Subscriptions@15eb5ee5]" started-at="2023-02-20T19:07:03 IST" name="sendEmail" finished-at="2023-02-20T19:07:06 IST" depends-on-methods="com.unified.infinity.uitest.admin.Subscriptions.endSuite" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- com.unified.infinity.uitest.admin.Subscriptions -->
+    </test> <!-- Regression2 -->
+  </suite> <!-- Suite -->
+</testng-results>
